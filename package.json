@@ -5,8 +5,11 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "components": "^0.1.0",
     "cors": "^2.8.3",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "styled": "^1.0.0",
+    "styled-components": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.2"
