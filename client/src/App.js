@@ -1,5 +1,6 @@
 import React from 'react';
-import WorldPlayer from './compponents/WorldPlayer'
+import WorldPlayer from './components/WorldPlayer'
+import NavBar from './components/NavBar'
 import './App.css';
 
 class App extends React.Component{
@@ -18,6 +19,7 @@ class App extends React.Component{
   render(){
     return(
       <div>
+        <NavBar />
         {this.state.players.map(players =>{
         return <WorldPlayer player={players.name} country={players.country} searches={players.searches} />
         })}
