@@ -23,10 +23,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+Classes have more control of a components state.
 - [ ] Name three lifecycle methods and their purposes.
+render builds you component ? attaches it to the dom.
 - [ ] What is the purpose of a custom hook?
+To allow you to create stateful logic that can be reused
 - [ ] Why is it important to test our apps?
-
+To make sure the code work and Find any bugs early
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
